@@ -1,0 +1,72 @@
+.premier-section{
+    background-image: url(image/imageheader.jpg);
+    background-size: cover;
+   padding: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+}
+
+.logo h2{
+    color: #d9a066;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu ul a:hover{
+    border-bottom: 4px solid #d9a066;
+}
+
+.argument h2{
+    color: #d9a066;
+    font-size: 24px;
+}
+.argument h3{
+    color: white;
+}
+
+.argument{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.bouton{
+  
+}
+
+.bouton a{
+    text-decoration: none;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+.bouton a:nth-child(1){
+    background-color: brown;
+    color: #d9a066;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.bouton a:nth-child(2){
+    color: #d9a066;
+    font-weight: bold;
+}
