@@ -8,21 +8,21 @@
 </head>
 <body>
     <!--Li barre de navigation bila-->
-    <header>
+    <header >
         <div class="logo">
             <h2>SEN RESTO</h2>
         </div>
         <div class="menu">
             <ul>
-                <li><a href="">Accueil</a></li>
-                 <li><a href="">Entrée</a></li>
-                  <li><a href="">Plats</a></li>
+                <li><a href="#first">Accueil</a></li>
+                 <li><a href="#entrer">Entrée</a></li>
+                  <li><a href="#plat">Plats</a></li>
                    <li><a href="#dessert">Dessert</a></li>
                     <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </header>
-    <div class="premier-section">
+    <div class="premier-section" id="first">
         
     <!--Fi section pour resto bi genre aregument akk bouton pour commander-->
     <div class="argument">
@@ -38,12 +38,16 @@
     </div>
     </div>
 
+
     <!--Legui ioe à partie de fii ngay commencer coder et commenter ko aussi -->
     <!--Dessert akk contact ngay defar n'oublie pas les id ayy lien ancres la wara nekk-->
     <!--Utilise display grid pour afficher les dessert akk yoyou pas flex-->
 
    
 <div class="id-entree" id="entrer">
+
+    <div class="id-entree" id="entrer">
+
     <section class="entree">
     <h1>Nos Entrées</h1>
     <p>Commencez votre expérience culinaire avec notre sélection d’entrées, conçues pour éveiller vos papilles en douceur. Entre saveurs fraîches, recettes traditionnelles et touches gourmandes, chaque plat est préparé avec soin pour vous offrir un avant-goût savoureux de notre cuisine. Légères ou généreuses, nos entrées sont le début parfait d’un repas plein de découvertes.</p>
@@ -55,7 +59,7 @@
            </div>
             <div class="entree-text">
                 <h3>Salade Sénégalaise</h3>
-                
+
             <a href="#modalPanierSalade">Ajoutez au panier</a>
             <a href="#modalDescSalade">Voir description</a>
             </div>
@@ -124,6 +128,7 @@
         </div>
     </div>
 </section>
+
 
 
     <!--je commence ici
@@ -234,6 +239,7 @@
 
 
 
+
  
 <!--Modal css-->
  
@@ -330,42 +336,30 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
         <div id="modalDescCruidite" class="modal">
             <div class="modal-box">
                 <a href="#" class="ferme">X</a>
-                <h2>Description Fataya</h2>
-                <p>Les Fataya sont de délicieux beignets salés typiques de la cuisine sénégalaise, préparés avec une pâte fine et croustillante, puis farcis généralement de viande hachée assaisonnée, d’oignons et d’épices.
-
-Ils sont frits jusqu’à obtenir une texture dorée et légèrement croustillante à l’extérieur, tout en restant fondants et savoureux à l’intérieur. Les fatayas sont souvent servis avec une sauce tomate épicée ou une sauce pimentée.
-
-Très populaires comme snack ou entrée, ils sont appréciés pour leur goût riche et leur simplicité..</p>
+                <h2>Description Cruidite</h2>
+                <p>Fraîche, colorée et pleine de vitalité, notre salade aux crudités est une invitation à la légèreté. Composée de légumes croquants soigneusement sélectionnés — laitue, tomates, carottes râpées et concombres — elle est relevée d’une vinaigrette maison délicatement parfumée. Parfaite en entrée, elle apporte une touche de fraîcheur naturelle et équilibre à votre repas.</p>
             </div>
         </div>
 
         <div id="modalDescCrevette" class="modal">
             <div class="modal-box">
                 <a href="#" class="ferme">X</a>
-                <h2>Description Fataya</h2>
-                <p>Les Fataya sont de délicieux beignets salés typiques de la cuisine sénégalaise, préparés avec une pâte fine et croustillante, puis farcis généralement de viande hachée assaisonnée, d’oignons et d’épices.
-
-Ils sont frits jusqu’à obtenir une texture dorée et légèrement croustillante à l’extérieur, tout en restant fondants et savoureux à l’intérieur. Les fatayas sont souvent servis avec une sauce tomate épicée ou une sauce pimentée.
-
-Très populaires comme snack ou entrée, ils sont appréciés pour leur goût riche et leur simplicité..</p>
+                <h2>Description Accra Crevette</h2>
+                <p>Savourez le croustillant irrésistible de nos accras de crevettes, de délicieux beignets dorés à base de crevettes finement assaisonnées. Légèrement épicés et parfaitement frits, ils offrent une texture moelleuse à l’intérieur et croquante à l’extérieur. Idéal en entrée ou à partager, ce classique revisité séduira les amateurs de saveurs marines.</p>
             </div>
         </div>
 
         <div id="modalDescMil" class="modal">
             <div class="modal-box">
                 <a href="#" class="ferme">X</a>
-                <h2>Description Fataya</h2>
-                <p>Les Fataya sont de délicieux beignets salés typiques de la cuisine sénégalaise, préparés avec une pâte fine et croustillante, puis farcis généralement de viande hachée assaisonnée, d’oignons et d’épices.
-
-Ils sont frits jusqu’à obtenir une texture dorée et légèrement croustillante à l’extérieur, tout en restant fondants et savoureux à l’intérieur. Les fatayas sont souvent servis avec une sauce tomate épicée ou une sauce pimentée.
-
-Très populaires comme snack ou entrée, ils sont appréciés pour leur goût riche et leur simplicité..</p>
+                <h2>Description Bouillie de mil</h2>
+                <p>Réconfortante et authentique, la bouillie de mil est une spécialité traditionnelle riche en saveurs et en bienfaits. Préparée à base de mil finement moulu, elle est doucement cuite pour obtenir une texture onctueuse, souvent accompagnée de lait, de sucre ou de miel selon vos préférences. Nourrissante et délicate, elle est parfaite pour bien commencer la journée ou pour une pause gourmande chaleureuse.</p>
             </div>
         </div>
 
         <!--boissions chaud pour entree yi-->
        <section class="boisson">
-        <h1>Nos boissons Chauds</h1>
+        <h1>Nos boissons Chaudes</h1>
         <p>Découvrez notre sélection de boissons chaudes, soigneusement préparées pour vous offrir un moment de réconfort et de détente. Du café traditionnel aux infusions naturelles, chaque tasse révèle des arômes riches et authentiques qui réchauffent le corps et éveillent les sens. Idéales pour commencer ou accompagner votre repas, nos boissons chaudes sont une invitation à savourer l’instant avec douceur et intensité.</p>
          <div class="boisson-entree">
             <div class="boisson-entre">
@@ -376,7 +370,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>The à la menthe</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescThement">Voir description</a>
+                        <a href="#modalDescAtaya">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -389,7 +383,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>Cafe Touba</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescCafe">Voir description</a>
+                        <a href="#modalDescCafeTouba">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -401,7 +395,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>Lait chaud</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescLai">Voir description</a>
+                        <a href="#modalDescMew">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -413,7 +407,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>Tisan</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescTisan">Voir description</a>
+                        <a href="#modalDescTisane">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -425,7 +419,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>The miel et citron</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescThecitron">Voir description</a>
+                        <a href="#modalDescThe">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -437,7 +431,7 @@ Très populaires comme snack ou entrée, ils sont appréciés pour leur goût ri
                     <div class="boisson-text">
                         <h3>Wass</h3>
                         <a href="#modalPaniermil">Ajouter au panier</a>
-                        <a href="#modalDescWass">Voir description</a>
+                        <a href="#modalDescWasss">Voir description</a>
                     </div>
                 </div>
             </div>
@@ -526,6 +520,65 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             </div>
         </div>
 
+         <div id="modalDesngalakh" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description du NGALAKH</h2>
+                <p>Le Ngalakh est un dessert traditionnel emblématique du Sénégal, reconnu pour sa texture crémeuse et
+                   son goût unique mêlant douceur et acidité. Ce mets est traditionnellement préparé par la communauté
+                    chrétienne pour célébrer la fête de Pâques, avant d'être généreusement partagé avec les voisins et amis,
+                     notamment musulmans, symbolisant ainsi la cohésion sociale et le dialogue islamo-chrétien au pays de la Teranga.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDeslakh" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description du lakh</h2>
+                <p>Le Lakh est un plat traditionnel sénégalais à base de mil, principalement consommé sous forme de bouillie épaisse
+                   servie avec du lait caillé sucré ou du yaourt. Contrairement au Ngalakh, qui est une version festive et plus complexe, le Lakh est un met plus sobre,
+                   souvent servi au petit-déjeuner ou lors de cérémonies familiales comme les baptêmes.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDesfonde" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description du fonde</h2>
+                <p>Le Fondé est une bouillie de mil traditionnelle du Sénégal, appréciée pour sa légèreté et 
+                  ses vertus nutritives. Contrairement au Lakh ou au Ngalakh qui sont des desserts consistants, 
+                  le Fondé est une préparation plus fluide, 
+                  souvent consommée le soir ou au petit-déjeuner pour faciliter la digestion.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDesbeignetsucre" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des beignets SUCRES</h2>
+                <p>
+                  Les beignets sucrés sont les stars de la cuisine de rue ("street food"). 
+                  On les trouve à chaque coin de rue, souvent vendus par des "Tandarma" dans des paniers tressés,
+                   et ils accompagnent parfaitement le Fondé ou le café Touba.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDessaladefruit" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
        </section>
 </div>
 
@@ -543,7 +596,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
 <!--fi section pour plat yila-->
        <div class="id-plat" id="plat">
         <section class="plats">
-        <h1>Nos Plat</h1>
+        <h1>Nos Plats</h1>
         <p>Savourez nos plats soigneusement préparés, alliant authenticité et générosité. Inspirés des recettes traditionnelles et revisités avec passion, ils offrent un mélange riche de saveurs et d’arômes qui séduisent à chaque bouchée. Chaque assiette est une invitation à découvrir une cuisine pleine de caractère, où qualité et plaisir se rencontrent pour un moment inoubliable.</p>
         <div class="entree-parent">
         <div class="entre">
@@ -554,7 +607,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Thieboudiene</h3>
             <a href="#modalPanierSalade">Ajoutez au panier</a>
-            <a href="#modalDescSalade">Voir description</a>
+            <a href="#modalDescThiep">Voir description</a>
             </div>
           </div>
         </div>
@@ -567,7 +620,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Yassa Poulet</h3>
             <a href="#modalPanierPastel">Ajoutez au panier</a>
-            <a href="#modalDescPastel">Voir description</a>
+            <a href="#modalDescYassa">Voir description</a>
             </div>
           </div>
         </div>
@@ -579,7 +632,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Mafé</h3>
             <a href="#modalPanierFataya">Ajoutez au panier</a>
-            <a href="#modalDescFataya">Voir description</a>
+            <a href="#modalDescMafe">Voir description</a>
             </div>
           </div>
         </div>
@@ -591,7 +644,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Thiof grillé</h3>
             <a href="#modalPanierCruidite">Ajoutez au panier</a>
-            <a href="#modalDescCruidite">Voir description</a>
+            <a href="#modalDescThiofe">Voir description</a>
             </div>
           </div>
         </div>
@@ -603,7 +656,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Soupou Kandja</h3>
             <a href="#modalPanierCrevette">Ajoutez au panier</a>
-            <a href="#modalDescCrevette">Voir description</a>
+            <a href="#modalDescSoup">Voir description</a>
             </div>
           </div>
         </div>
@@ -615,7 +668,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Domoda</h3>
             <a href="#modalPaniermil">Ajoutez au panier</a>
-            <a href="#modalDescMil">Voir description</a>
+            <a href="#modalDescDomoda">Voir description</a>
             </div>
           </div>
         </div>
@@ -627,7 +680,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Riz gras sénégalais</h3>
             <a href="#modalPaniermil">Ajoutez au panier</a>
-            <a href="#modalDescMil">Voir description</a>
+            <a href="#modalDescRiz">Voir description</a>
             </div>
           </div>
         </div>
@@ -639,7 +692,7 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Dibi</h3>
             <a href="#modalPaniermil">Ajoutez au panier</a>
-            <a href="#modalDescMil">Voir description</a>
+            <a href="#modalDescDibi">Voir description</a>
             </div>
           </div>
         </div>
@@ -651,13 +704,14 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
             <div class="entree-text">
                 <h3>Moroxe</h3>
             <a href="#modalPaniermil">Ajoutez au panier</a>
-            <a href="#modalDescMil">Voir description</a>
+            <a href="#modalDescMoroxe">Voir description</a>
             </div>
           </div>
         </div>
     </div>
        </section>
        </div>
+
 
        <section class="news">
     <div class="news-text">
@@ -669,8 +723,187 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
     </div>
 </section>
 
-         <h2 id="contact">CONTACT</h2>
+         
+
+
+         <div class="id-entree" id="dessert">
+    <section class="entree">
+    <h1>Nos desserts</h1>
+    <p>Commencez votre expérience culinaire avec notre sélection d’entrées, conçues pour éveiller vos papilles en douceur. Entre saveurs fraîches, recettes traditionnelles et touches gourmandes, chaque plat est préparé avec soin pour vous offrir un avant-goût savoureux de notre cuisine. Légères ou généreuses, nos entrées sont le début parfait d’un repas plein de découvertes.</p>
+    <div class="entree-parent">
+        <div class="entre">
+          <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/13f15f8be0c7e39cc200c2bb5d46517d.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>MGALAKH</h3>
+            <a href="#modalPanierPastel">Ajoutez au panier</a>
+            <a href="#modalDescNgalaxx">Voir description</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="entre">
+           <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/18c62c2a5a6434ae82f4d853a0d0133b.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>THIAKRI</h3>
+            <a href="#modalPanierPastel">Ajoutez au panier</a>
+            <a href="#modalDescThiakrii">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+            <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/509c73cb5f0aef446cf54d1adbb2c433.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>LAKH</h3>
+            <a href="#modalPanierPastel">Ajoutez au panier</a>
+            <a href="#modalDescLaxx">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/fonde.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>FONDE</h3>
+            <a href="#modalPanierCruidite">Ajoutez au panier</a>
+            <a href="#modalDescFondee">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/b s.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>BEIGNETS SUCRES</h3>
+            <a href="#modalPanierCrevette">Ajoutez au panier</a>
+            <a href="#modalDescSucre">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/salade de fruits.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>SALADE DE FRUITS</h3>
+            <a href="#modalPaniermil">Ajoutez au panier</a>
+            <a href="#modalDesSaladeF">Voir description</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="id-entree" id="entrer">
+    <section class="entree">
+    <h1>Nos cocktails</h1>
+    <p>Commencez votre expérience culinaire avec notre sélection d’entrées, conçues pour éveiller vos papilles en douceur. Entre saveurs fraîches, recettes traditionnelles et touches gourmandes, chaque plat est préparé avec soin pour vous offrir un avant-goût savoureux de notre cuisine. Légères ou généreuses, nos entrées sont le début parfait d’un repas plein de découvertes.</p>
+    <div class="entree-parent">
+        <div class="entre">
+          <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/bissap 1.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>BISSAP</h3>
+            <a href="#modalPanierSalade">Ajoutez au panier</a>
+            <a href="#modalDescBissap">Voir description</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="entre">
+           <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/bouye.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>BOUYE</h3>
+            <a href="#modalPanierPastel">Ajoutez au panier</a>
+            <a href="#modalDescBouye">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+            <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/ditakh.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>DITAKH</h3>
+            <a href="#modalPanierFataya">Ajoutez au panier</a>
+            <a href="#modalDescDitakh">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/dakkar.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>DAKKAR</h3>
+            <a href="#modalPanierCruidite">Ajoutez au panier</a>
+            <a href="#modalDescDakar">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/ginger.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>GINGER</h3>
+            <a href="#modalPanierCrevette">Ajoutez au panier</a>
+            <a href="#modalDescGinger">Voir description</a>
+            </div>
+          </div>
+        </div>
+        <div class="entre">
+             <div class="entre-content">
+             <div class="entree-img">
+             <img src="image/manguo.jpg" alt="">
+           </div>
+            <div class="entree-text">
+                <h3>MANGUE</h3>
+            <a href="#modalPaniermil">Ajoutez au panier</a>
+            <a href="#modalDescMangue">Voir description</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="news">
+    <div class="news-text">
+        <h1>Incrivez pour ne manquer aucun <br>de nos meilleurs desserts.</h1>
+    </div>
+    <div class="news-form">
+        <input type="email" placeholder="Votre adresse email">
+        <button>S'inscrire</button>
+    </div>
+</section>
+
+
+    
+
 <section class="contact">
+    <h1 id="contact" style="color: brown; font-weight: bold; text-align: center;">Contact</h1>
   <form action="#" method="post">
     <label for="name">Nom :</label>
     <input type="text" id="name" name="name" required>
@@ -688,7 +921,10 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
   </form>
 </section>
 
-<footer>
+
+
+       <footer>
+
   <div class="footer-container">
     <div class="footer-section">
       <h3>À propos</h3>
@@ -713,9 +949,350 @@ Servi bien frais, le Wass est une invitation à savourer les richesses culinaire
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2026 RESTAURANT. Tous droits réservés.</p>
+    <p>&copy; 2026 SEN RESTO. Tous droits réservés.</p>
   </div>
 </footer>
+
+<div id="modalDescNgalax" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+        <div id="modalDescThiakri" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+            <div id="modalDescLakh" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+            <div id="modalDescFonde" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+            <div id="modalDescBeignet" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+            <div id="modalDescFruits" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescBissap" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescBouye" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescDitax" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescDakar" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescGinger" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescMangue" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description des salades de fruits</h2>
+                <p>
+                  Pour rester dans l'esprit des douceurs sénégalaises que nous venons d'évoquer
+                   (Ngalakh, Fondé, Beignets), la salade de fruits au Sénégal est souvent un mélange
+                    de fraîcheur tropicale et de gourmandise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescAtaya" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description The à la menthe</h2>
+                <p>
+                  Rafraîchissant et parfumé, notre thé à la menthe est une véritable invitation au voyage. Infusé avec des feuilles de menthe fraîche et subtilement sucré, il offre un équilibre parfait entre douceur et intensité. Servi chaud, il accompagne idéalement vos moments de détente ou vos repas en toute convivialité.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescCafeTouba" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Cafe Touba</h2>
+                <p>
+                 Authentique et emblématique, le Café Touba est une boisson sénégalaise au caractère unique. Préparé à base de café infusé avec du poivre de Guinée (djar), il dévoile des arômes épicés et profonds. Réconfortant et stimulant, il est parfait pour commencer la journée ou pour une pause riche en saveurs locales.
+                </p>
+            </div>
+        </div>
+
+        
+         <div id="modalDescMew" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Lait Chaud</h2>
+                <p>
+                 Simple et réconfortant, le lait chaud est une boisson douce qui évoque chaleur et apaisement. Servi bien chaud, il peut être dégusté nature ou légèrement sucré selon vos envies. Idéal pour un moment de détente, il convient à tous les âges et accompagne parfaitement vos collations.
+                </p>
+            </div>
+        </div>
+
+        
+         <div id="modalDescTisane" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Tisan</h2>
+                <p>
+                  Naturelle et apaisante, notre tisane est préparée à partir de plantes soigneusement sélectionnées. Chaque tasse offre une infusion délicate aux vertus relaxantes, parfaite pour se détendre après une longue journée. Une boisson légère et bienfaisante qui allie simplicité et bien-être.
+                </p>
+            </div>
+        </div>
+        
+         <div id="modalDescThe" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description The miel et citron</h2>
+                <p>
+                  Revitalisant et savoureux, le thé au miel et citron associe la douceur du miel à la fraîcheur acidulée du citron. Cette boisson chaude est idéale pour se réchauffer tout en profitant d’un mélange harmonieux de saveurs. Parfaite pour un moment de réconfort ou pour accompagner vos instants
+                </p>
+            </div>
+        </div>
+        
+        
+         <div id="modalDescWasss" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Wass</h2>
+                <p>
+                  Traditionnel et rafraîchissant, le wass est une spécialité sénégalaise à base de semoule de mil finement travaillée. Léger et légèrement sucré, il est souvent accompagné de yaourt ou de lait caillé pour une expérience encore plus gourmande. À la fois nourrissant et savoureux, il séduit par son authenticité et sa texture unique.
+                </p>
+            </div>
+        </div>
+
+          <div id="modalDescThiep" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Thieboudiene</h2>
+                <p>
+                 Plat emblématique du Sénégal, le thiéboudienne est un savoureux mélange de riz, de poisson et de légumes mijotés dans une sauce tomate riche en arômes. Préparé avec soin selon la tradition, il offre un équilibre parfait entre générosité, épices et authenticité. Un incontournable de la cuisine sénégalaise qui ravit les papilles à chaque bouchée.
+                </p>
+            </div>
+        </div>
+        
+        <div id="modalDescYassa" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Yassa</h2>
+                <p>
+                Le yassa poulet est un plat incontournable aux saveurs acidulées et parfumées. Le poulet est mariné dans du citron, de la moutarde et des oignons, puis mijoté lentement pour révéler toute sa tendreté. Servi avec du riz, ce plat séduit par son goût unique et son mélange harmonieux d’épices.
+                </p>
+            </div>
+        </div>
+
+        <div id="modalDescMafe" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Mafe</h2>
+                <p>
+                Riche et onctueux, le mafé est un ragoût à base de pâte d’arachide qui offre une explosion de saveurs. Accompagné de viande et de légumes, il est mijoté lentement pour obtenir une sauce épaisse et savoureuse. Ce plat généreux est parfait pour les amateurs de cuisine réconfortante et authentique.
+                </p>
+            </div>
+        </div>
+
+           <div id="modalDescMafe" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Thiofe</h2>
+                <p>
+               Délicatement grillé, le thiof séduit par sa chair tendre et son goût raffiné. Assaisonné avec des épices locales et cuit à la perfection, il offre une expérience gustative à la fois simple et élégante. Servi avec des accompagnements traditionnels, il met à l’honneur les richesses de la mer.
+                </p>
+            </div>
+        </div>
+        
+         <div id="modalDescThiofe" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Thiofe</h2>
+                <p>
+               Délicatement grillé, le thiof séduit par sa chair tendre et son goût raffiné. Assaisonné avec des épices locales et cuit à la perfection, il offre une expérience gustative à la fois simple et élégante. Servi avec des accompagnements traditionnels, il met à l’honneur les richesses de la mer.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescMoroxe" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Soupa Kandja</h2>
+                <p>
+              Le moroxé est un plat traditionnel à base de riz cuit avec de la viande ou du poisson, relevé par des épices et parfois agrémenté de légumes. Simple mais plein de saveurs, il incarne une cuisine familiale généreuse et conviviale. Idéal pour découvrir une autre facette de la gastronomie sénégalaise.
+                </p>
+            </div>
+        </div>
+
+        <div id="modalDescDomoda" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Domoda</h2>
+                <p>Riche et savoureux, le domoda est un plat traditionnel sénégalais préparé avec une délicieuse sauce à base de pâte d’arachide et de tomate. Accompagné de viande tendre et de légumes mijotés, il offre une texture onctueuse et un goût généreux. Servi avec du riz blanc, c’est un véritable classique réconfortant qui séduit par sa profondeur de saveurs. Le moroxé est un plat traditionnel à base de riz cuit avec de la viande ou du poisson, relevé par des épices et parfois agrémenté de légumes. Simple mais plein de saveurs, il incarne une cuisine familiale généreuse et conviviale. Idéal pour découvrir une autre facette de la gastronomie sénégalaise.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescRiz" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Riz gras senegalais</h2>
+                <p>Parfumé et coloré, le riz gras sénégalais est un plat généreux cuisiné dans une sauce tomate riche et épicée. Préparé avec de la viande ou du poulet et agrémenté de légumes, chaque grain de riz est imprégné de saveurs intenses. Convivial et nourrissant, il est parfait pour partager un moment gourmand autour d’un repas traditionnel.
+                </p>
+            </div>
+        </div>
+
+         <div id="modalDescDibi" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Dibi</h2>
+                <p>Authentique et irrésistible, le dibi est une spécialité sénégalaise de viande grillée, généralement du mouton, cuite au feu de bois. Assaisonnée avec des épices simples qui mettent en valeur la qualité de la viande, elle est servie chaude avec des oignons et de la moutarde. À la fois croustillant à l’extérieur et tendre à l’intérieur, le dibi est une expérience culinaire pleine de caractère.
+            </div>
+        </div>
+
+        <div id="modalDescNgalaxx" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Ngalax</h2>
+                <p>Onctueux et riche en saveurs, le ngalakh est un dessert traditionnel sénégalais préparé à base de pâte d’arachide, de bouye (fruit du baobab) et de pain émietté. Parfumé et légèrement sucré, il offre une texture généreuse et un goût unique qui allie douceur et authenticité. Très apprécié lors des occasions spéciales, il incarne la gourmandise à la sénégalaise.
+            </div>
+        </div>
+
+        <div id="modalDescThiakrii" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Thiakri</h2>
+                <p>Frais et savoureux, le thiakry est un dessert à base de couscous de mil mélangé à du lait caillé ou du yaourt. Délicatement sucré et parfumé, il est souvent agrémenté de raisins secs ou d’arômes subtils. Léger et onctueux, il est parfait pour terminer un repas sur une note douce et rafraîchissante.
+            </div>
+        </div>
+
+        <div id="modalDescLaxx" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Lakh</h2>
+                <p> Traditionnel et nourrissant, le lakh est une spécialité sénégalaise à base de mil accompagnée d’une sauce crémeuse souvent préparée avec du lait caillé. Sa texture épaisse et son goût légèrement sucré en font un dessert réconfortant et authentique, très apprécié pour sa simplicité et sa richesse.
+            </div>
+        </div>
+
+        <div id="modalDescFondee" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Fonde</h2>
+                <p> Authentique et consistant, le fondé est un plat à base de boules de mil servies avec une sauce riche, souvent à base de lait caillé ou de pâte d’arachide. À la fois nourrissant et savoureux, il représente un héritage culinaire traditionnel, apprécié pour sa texture unique et son goût généreux.
+            </div>
+        </div>
+
+        <div id="modalDescSucre" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description beignets sucrées</h2>
+                <p> Moelleux et dorés, les beignets sucrés sont une douceur irrésistible. Légèrement croustillants à l’extérieur et tendres à l’intérieur, ils sont délicatement sucrés pour un plaisir gourmand à chaque bouchée. Parfaits pour accompagner une boisson chaude ou pour une pause sucrée à tout moment de la journée.
+            </div>
+        </div>
+
+        <div id="modalDescsaladeF" class="modal">
+            <div class="modal-box">
+                <a href="#" class="ferme">X</a>
+                <h2>Description Salade de fruit</h2>
+                <p> Fraîche et colorée, la salade de fruits est un mélange savoureux de fruits de saison soigneusement sélectionnés. Légère et naturellement sucrée, elle apporte une touche de fraîcheur et de vitalité en fin de repas. Idéale pour une pause saine et gourmande, elle séduit par sa simplicité et son goût rafraîchissant.
+            </div>
+        </div>
         
 </body>
 </html>
