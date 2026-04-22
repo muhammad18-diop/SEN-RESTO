@@ -75,117 +75,7 @@ header{
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 
-/*partie dsserts*/
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-section.desserts{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
-
-   
-}
-
-.dessert{
-    transition: transform o.3, box-shadow 0.3 ease;
-    padding: 10px;
-}
-
-.dessert{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-
-.dessert img{
-     width: 300px;
-     height: 300px;
-     border-radius: 8px;
-     transition:  transform o.3s ease;
-    
-}
-
-div.dessert img:hover{
-     transform: scale(1.1);
-}
-
-.dessert a{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: brown;
-    color:burlywood;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    text-decoration: none;
-
-}
-
-.dessert a:hover{
-    background-color: #c0392b;
-    transform: scale(1.05);
-}
-
-/*partie cokctail*/
-
-
-section.cocktail{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
-   
-}
-
-.cock img{
-     width: 300px;
-     height: 300px;
-     border-radius: 8px;
-    transition:  transform 0.3s ease;
-    padding: 10PX;
-    
-}
-
-.cock img:hover{
-     transform: scale(1.1);
-}
-
-
-.cock{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-     transition: transform o.3, box-shadow 0.3 ease;
-}
-
-.cock a{
-    display: block;
-    width: 90%;
-    padding: 10px;
-    background-color: brown;
-    color:burlywood;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease transform 0.3s ease;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.cock a:hover{
-    background-color: #c0392b;
-    transform: scale(1.05);
-=======
-/*Pour css bi aussi commence par la commenter ko */
 .entree{
     margin-top: 5%;
 }
@@ -326,7 +216,7 @@ section.cocktail{
 
 
 
-<<<<<<< HEAD
+
 /*partie CONTACT*/
 
 h2 {
@@ -426,7 +316,7 @@ footer {
 }
 
 /*Pour css bi aussi commence par la commenter ko */
-=======
+
 .boisson-img img{
     width: 100%;
     height: 300px;
@@ -474,4 +364,3 @@ footer {
 html{
     scroll-behavior: smooth;
 }
->>>>>>> e51a19791fe0180559d7ebf8cad276542d6a18a4
