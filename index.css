@@ -9,6 +9,10 @@ header{
     justify-content: center;
     align-items: center;
     gap: 40%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
 }
 
 .logo h2{
@@ -72,3 +76,189 @@ header{
 }
 
 /*Pour css bi aussi commence par la commenter ko */
+.entree{
+    margin-top: 5%;
+}
+.entree h1{
+    color: brown;
+    text-align: center;
+    margin-top: 10px;
+}
+.entree p{
+    font-size: 24px;
+}
+.entree-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.entre img{
+    width: 100%;
+    height: 250px;
+}
+
+
+.entre-content{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 400px;
+}
+
+.entree-text a{
+    text-decoration: none;
+    display: block;
+    width: 90%;
+}
+
+.entree-text a:nth-child(2){
+    background-color: brown;
+    color: #d9a066;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.entree-text a:nth-child(3){
+    color: #d9a066;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target{
+    display: flex;
+}
+
+.modal-box{
+    background: white;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ferme{
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    transform: translateX(-60%);
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.ferme:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.modal-box h2{
+    color: brown;
+}
+
+.modal-box input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.modal-box button{
+    color: #d9a066;
+    background-color: brown;
+    padding: 10px;
+   
+}
+
+.boisson h1{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+
+.boisson p{
+    font-size: 24px;
+}
+
+.boisson-entree{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 5%;
+}
+
+
+
+.boisson-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.boisson-text a{
+    text-decoration: none;
+    display: block;
+}
+
+.boisson-text a:nth-child(2){
+    background-color: brown;
+    color: burlywood;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.boisson-text a:nth-child(3){
+    color: burlywood;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boisson-contenu{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 400px;
+}
+.plats{
+    margin-top: 5%;
+}
+.plats h1{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+
+.plats p{
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
